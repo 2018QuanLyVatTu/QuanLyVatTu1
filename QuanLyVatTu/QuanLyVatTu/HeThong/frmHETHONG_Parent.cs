@@ -15,6 +15,7 @@ namespace QuanLyVatTu.HeThong
         public frmHETHONG_Parent()
         {
             InitializeComponent();
+            //ghfg
         }
     }
 }

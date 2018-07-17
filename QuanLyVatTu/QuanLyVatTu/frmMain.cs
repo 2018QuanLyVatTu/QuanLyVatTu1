@@ -19,6 +19,7 @@ namespace QuanLyVatTu
             frmDangNhap.MdiParent = this;
             frmDangNhap.Show();
             //test
+            //rtyrt
         }
     }
 }
