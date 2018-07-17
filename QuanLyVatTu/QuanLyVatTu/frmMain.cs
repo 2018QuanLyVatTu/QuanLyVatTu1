@@ -18,6 +18,7 @@ namespace QuanLyVatTu
             frmDangNhap frmDangNhap = new frmDangNhap();
             frmDangNhap.MdiParent = this;
             frmDangNhap.Show();
+            //test
         }
     }
 }
