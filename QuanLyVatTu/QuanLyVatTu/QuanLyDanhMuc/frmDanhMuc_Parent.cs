@@ -15,7 +15,7 @@ namespace QuanLyVatTu.QuanLyDanhMuc
         public frmDanhMuc_Parent()
         {
             InitializeComponent();
-            // ádf
+            // ahihi
             //test 1 
             //test 3
             //test 4
