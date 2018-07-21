@@ -28,5 +28,10 @@ namespace QuanLyVatTu
         {
             
         }
+
+        private void quảnLíNgườiDùngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -69,6 +69,18 @@
     <Compile Include="HeThong\frmHETHONG_Parent.Designer.cs">
       <DependentUpon>frmHETHONG_Parent.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\frmPhanQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\frmPhanQuyen.Designer.cs">
+      <DependentUpon>frmPhanQuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\frmQuanLiNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\frmQuanLiNguoiDung.Designer.cs">
+      <DependentUpon>frmQuanLiNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\frmThayDoiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\frmPhanQuyen.resx">
+      <DependentUpon>frmPhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\frmQuanLiNguoiDung.resx">
+      <DependentUpon>frmQuanLiNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\frmThayDoiMatKhau.resx">
       <DependentUpon>frmThayDoiMatKhau.cs</DependentUpon>

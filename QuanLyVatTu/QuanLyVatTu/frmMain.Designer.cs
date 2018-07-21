@@ -45,6 +45,7 @@
             this.hệThốngBáoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêThiếtBịTồnĐọngTrongKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêDuyệtThanhToánVậtTưToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLíNgườiDùngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,9 +68,10 @@
             // quảnTrịHệThốngToolStripMenuItem
             // 
             this.quảnTrịHệThốngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.đăngNhậpToolStripMenuItem,
-            this.thayĐổiMậtKhẩuToolStripMenuItem,
+            this.quảnLíNgườiDùngToolStripMenuItem,
             this.phânQuyềnToolStripMenuItem,
+            this.thayĐổiMậtKhẩuToolStripMenuItem,
+            this.đăngNhậpToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem});
             this.quảnTrịHệThốngToolStripMenuItem.Name = "quảnTrịHệThốngToolStripMenuItem";
             this.quảnTrịHệThốngToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
@@ -177,6 +179,13 @@
             this.thốngKêDuyệtThanhToánVậtTưToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
             this.thốngKêDuyệtThanhToánVậtTưToolStripMenuItem.Text = "Thống kê duyệt thanh toán vật tư";
             // 
+            // quảnLíNgườiDùngToolStripMenuItem
+            // 
+            this.quảnLíNgườiDùngToolStripMenuItem.Name = "quảnLíNgườiDùngToolStripMenuItem";
+            this.quảnLíNgườiDùngToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quảnLíNgườiDùngToolStripMenuItem.Text = "Quản lí người dùng";
+            this.quảnLíNgườiDùngToolStripMenuItem.Click += new System.EventHandler(this.quảnLíNgườiDùngToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,6 +224,7 @@
         private System.Windows.Forms.ToolStripMenuItem lậpPhiếuXuấtKhoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêThiếtBịTồnĐọngTrongKhoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêDuyệtThanhToánVậtTưToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLíNgườiDùngToolStripMenuItem;
     }
 }
 
