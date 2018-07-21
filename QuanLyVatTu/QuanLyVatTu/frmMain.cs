@@ -23,5 +23,10 @@ namespace QuanLyVatTu
             //test lần thứ 9999999999999999
             //test tiếp
         }
+
+        private void thayĐổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

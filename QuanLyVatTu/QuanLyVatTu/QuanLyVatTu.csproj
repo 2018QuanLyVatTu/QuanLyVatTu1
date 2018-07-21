@@ -69,11 +69,11 @@
     <Compile Include="HeThong\frmHETHONG_Parent.Designer.cs">
       <DependentUpon>frmHETHONG_Parent.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeThong\ThayDoiMatKhau.cs">
+    <Compile Include="HeThong\frmThayDoiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HeThong\ThayDoiMatKhau.Designer.cs">
-      <DependentUpon>ThayDoiMatKhau.cs</DependentUpon>
+    <Compile Include="HeThong\frmThayDoiMatKhau.Designer.cs">
+      <DependentUpon>frmThayDoiMatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="Nhap_Xuat_VatTu\frmNhap_Xuat_VatTu_Parent.cs">
       <SubType>Form</SubType>
@@ -94,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\frmThayDoiMatKhau.resx">
+      <DependentUpon>frmThayDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

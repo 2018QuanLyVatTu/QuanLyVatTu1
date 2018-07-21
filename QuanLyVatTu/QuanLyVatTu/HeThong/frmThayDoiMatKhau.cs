@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace QuanLyVatTu.HeThong
 {
-    public partial class ThayDoiMatKhau : Form
+    public partial class frmThayDoiMatKhau : Form
     {
-        public ThayDoiMatKhau()
+        public frmThayDoiMatKhau()
         {
             InitializeComponent();
+        }
+
+        private void btnNhapLai_Click(object sender, EventArgs e)
+        {
+            this.txtMatKhauMoi.ResetText();
+            this.txtMauKhauCu.ResetText();
+            this.txtXacNhan.ResetText();
         }
     }
 }
