@@ -69,6 +69,12 @@
     <Compile Include="HeThong\frmHETHONG_Parent.Designer.cs">
       <DependentUpon>frmHETHONG_Parent.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\ThayDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\ThayDoiMatKhau.Designer.cs">
+      <DependentUpon>ThayDoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nhap_Xuat_VatTu\frmNhap_Xuat_VatTu_Parent.cs">
       <SubType>Form</SubType>
     </Compile>
