@@ -65,7 +65,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbcDangNhap.Controls.Add(this.tabDangNhap);
             this.tbcDangNhap.Controls.Add(this.tbDangKy);
-            this.tbcDangNhap.Location = new System.Drawing.Point(2, 3);
+            this.tbcDangNhap.Location = new System.Drawing.Point(1, 3);
             this.tbcDangNhap.Name = "tbcDangNhap";
             this.tbcDangNhap.SelectedIndex = 0;
             this.tbcDangNhap.Size = new System.Drawing.Size(465, 221);
@@ -167,8 +167,9 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(151, 30);
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Đăng ký";
+            this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnReset
             // 
@@ -280,7 +281,7 @@
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(151, 30);
             this.btnDangKy.TabIndex = 2;
-            this.btnDangKy.Text = "Đăng nhập";
+            this.btnDangKy.Text = "Đăng kí";
             this.btnDangKy.UseVisualStyleBackColor = true;
             // 
             // btnReset_DK

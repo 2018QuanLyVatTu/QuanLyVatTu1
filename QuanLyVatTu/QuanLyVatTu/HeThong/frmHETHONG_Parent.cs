@@ -12,10 +12,11 @@ namespace QuanLyVatTu.HeThong
 {
     public partial class frmHETHONG_Parent : Form
     {
+
         public frmHETHONG_Parent()
         {
             InitializeComponent();
-            //ghfg
+            
         }
     }
 }

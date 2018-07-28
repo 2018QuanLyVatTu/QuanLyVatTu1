@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using QuanLyVatTu.HeThong;
 namespace QuanLyVatTu
 {
-    public partial class frmDangNhap : Form
+    public partial class frmDangNhap : frmMain
     {
         #region fields
         string thongTinDangNhap = "Bạn hãy nhập đẩy đủ thông tin đăng nhập!";
@@ -58,5 +58,15 @@ namespace QuanLyVatTu
         }
 
         #endregion
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(this.txtUSER.Text == "admin" && this.txtPass.Text == "admin")
+            {
+                menuStrip.Visible = true;
+               
+               this.Close();
+            }
+        }
     }
 }
